@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Krub|Rubik');
+
+.box-data {
+    background: white;
+    max-width:  318px;
+  height: 185px;
+  border: 0.75px solid #307A9A;
+  box-sizing: border-box;
+  margin-top: 40px;
+  font-family: "Krub";
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  background: wheat;
+  overflow: hidden;
+}
+.data >* {  margin-right: 39px;
+    font-size: 19px} 
+
+.data {
+    grid-column: 2/3;
+    text-align: right
+}
+.actions-box {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.vir {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.conAll {
+    display: grid;
+    grid-template-columns: repeat(4, 1f1);
+    grid-template-rows: auto;
+}
+.conAll> #app {
+    grid-column: 4/5
+}
+/* the remove button */
+ button[id^= next] {width: 83px;
+    height: 34px;
+    left: 923px;
+    top: 214px;
+    
+    background: mediumorchid;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 7px; margin: 10px}
+
+.save {
+    width: 83px;
+    height: 34px;
+    left: 923px;
+    top: 214px;
+    
+    background: mediumorchid;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 7px; margin: 10px
+}
+.savedAct { width: 296px;
+    height: 677px;
+    background: linear-gradient(106.13deg, #1E1B1B -12.04%, #777777 92.43%);
+    border: 10px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    grid-column: 1/2;
+    grid-row: 1/2;
+    /* to be cahanch */
+    color: white}
+
+    .saved-data {  width: 80%;
+        height: auto;
+        left: 160px;
+        top: 162px;
+        margin: auto;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 14px;
+        
+        color: #B2B2B2;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background: rgb(20, 50, 63)
+    }
+.acts > .act-box {
+    background-color: slategray;
+    font-family: "Krub";
+    text-align: center;
+    padding: 5px;
+    margin: 30px
+
+}
+
+.box-form {
+    grid-row: 1/2;
+    grid-column: 2/3
+}
+
+/* styling the form */
+
+
+.formBox {
+  
+    background:grey;
+    width: 400px;
+    height: 400px;
+   display: flex;
+   justify-content: center;
+   
+   align-items: center;
+   border-radius: 30px
+  }
+  
+  ::placeholder  {
+    color: white;
+    font-family: "Krub" , sans-serif
+  }
+  .form  input {
+    font-family: "Krub" , sans-serif;
+    display: block;
+    margin-block-end:10px;
+    color: white;
+    background: #1E1B1B;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px auto;
+
+  
+  }
+  input[type="submit"] {
+    text-align: center;
+    margin: auto;
+    border-radius: 2px !important
+  }
+  label {
+      display: block;
+      color: white
+  }
+  .form * {
+      display: block
+  }
+  
